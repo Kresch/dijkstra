@@ -32,4 +32,6 @@ wiki : https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
 \examples{
 > dijkstra(wiki_graph,1)
 [1]  0  7  9 20 20 11
+> euclidian(1000,100)
+[1] 100
 }
