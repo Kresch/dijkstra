@@ -14,7 +14,7 @@ wiki_graph <-
 #'
 
 dijkstra<-function(graph,init_node){
-        if(!is.data.frame(graph) || (!is.vector(init_node)$$length(init_node==1))){
+        if(!is.data.frame(graph) || (!is.vector(init_node)&&length(init_node==1))){
                 stop("Wrong type of parameters")
         }
         find_neighbours<-function(node){
