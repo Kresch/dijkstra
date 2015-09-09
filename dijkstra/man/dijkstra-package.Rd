@@ -13,23 +13,23 @@
 The DESCRIPTION file:
 \packageDESCRIPTION{dijkstra}
 \packageIndices{dijkstra}
-~~ An overview of how to use the package, including the most important functions ~~
+fun dijkstra takes a data.frame and a starting node (scalar). Outputs a vector of shortest distances to each other node in data.frame.
 }
 \author{
-\packageAuthor{dijkstra}
+\packageAuthor{Niclas Lovsjo, Maxime Bonneau}
 
-Maintainer: \packageMaintainer{dijkstra}
+Maintainer: \packageMaintainer{Niclas Lovsjo}
 }
 \references{
-~~ Literature or other references for background information ~~
+wiki : https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
 }
-~~ Optionally other standard keywords, one per line, from file KEYWORDS in the R ~~
-~~ documentation directory ~~
-\keyword{ package }
+
+\keyword{ dijkstra, optimization }
 \seealso{
 ~~ Optional links to other man pages, e.g. ~~
 ~~ \code{\link[<pkg>:<pkg>-package]{<pkg>}} ~~
 }
 \examples{
-~~ simple examples of the most important functions ~~
+> dijkstra(wiki_graph,1)
+[1]  0  7  9 20 20 11
 }
